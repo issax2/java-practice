@@ -4,7 +4,7 @@ public class calc {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("welcome to the onedigit calcultor!");
+		System.out.println("welcome to the one-digit calcultor!");
 	
 		
 		
@@ -21,7 +21,7 @@ public class calc {
 		else if (method == '+') result = num1+num2;
 		else if (method == '*') result = num1*num2;
 		else if (method == '/') result = num1/num2;
-		else System.out.println("error occured try again later!");
+		else System.out.println("Error occurred, try again later!");
 		
 		System.out.println(result);
 	
